@@ -1,0 +1,32 @@
+.nav {
+    background-color: #F3F4F5;
+    margin: auto;
+    // position: fixed;
+    // top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo {
+        width: auto;
+        max-width: 140px;
+        margin: 3rem 6rem;
+    }
+
+    .nav-links {
+        margin-right: 50px;
+        a {
+            color: black;
+            font-size: 24px;
+            font-weight: 600;
+            text-decoration: none;
+            margin: 15px;
+
+            &:visited {
+                text-decoration: none;
+                color: black;
+            }
+        }
+    }
+}
+
